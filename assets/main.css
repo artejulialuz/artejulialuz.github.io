@@ -3,3 +3,25 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Akronim', cursive;
 **/
+
+/**GRID**/
+.grid-container {
+    display: grid;
+    grid-template-areas: "nv main"
+                         "nv ft";
+    grid-template-rows: auto;
+    grid-template-columns: 30% 70%; 
+}
+
+nav {
+    grid-area: nv;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: ft;
+}
+/**================================================**/
