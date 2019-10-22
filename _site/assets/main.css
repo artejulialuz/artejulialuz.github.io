@@ -6,10 +6,10 @@ font-family: 'Open Sans', sans-serif;
 /**GRID**/
 .grid-container {
     display: grid;
-    grid-template-areas: "nv main"
-                         "nv ft";
+    grid-template-areas: "nv"
+                         "main";
     grid-template-rows: auto;
-    grid-template-columns: 20% 80%; 
+    grid-template-columns: auto; 
 }
 
 nav {
@@ -46,7 +46,7 @@ footer {
     margin-right: 10%;
     font-family: 'Monoton', cursive;
     color: #abbaab;
-    font-size: 70px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -78,4 +78,34 @@ footer {
     background-image: linear-gradient(to bottom right, #abbaab, #ffffff);
     height: 100vh;
 }
+/**========================================**/
+
+/**MEDIA QUERIES**/
+@media (min-width: 1600px) {
+    
+    /**GRID**/
+    .grid-container {
+    display: grid;
+    grid-template-areas: "nv main"
+                         "nv ft";
+    grid-template-rows: auto;
+    grid-template-columns: 20% 80%; 
+    }
+    /**==============**/
+
+    /**NAVBAR**/
+    .navbar-itens h1 { 
+        margin-top: 20px; 
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: 'Monoton', cursive;
+        color: #abbaab;
+        font-size: 70px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    /**==============**/
+
+}
+
 /**========================================**/
