@@ -31,6 +31,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: black; 
 }
 
 .navbar-itens {
@@ -43,7 +44,7 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     font-family: 'Monoton', cursive;
-    color: rgb(107, 20, 88);
+    color: #abbaab;
     font-size: 70px;
     text-transform: uppercase;
     text-align: center;
@@ -59,13 +60,20 @@ footer {
 }
 
 .navbar-itens a {
-    background-color: rgb(197, 138, 182);
+    background-color: white;
     text-decoration: none;
     color: black;
     border-radius: 30px;
-    border: 2px solid rgb(107, 20, 88);
+    border: 2px solid #abbaab;
     text-align: center;
     width: 100px;
 }
+/**========================================**/
 
+/**BACKGROUND**/
+.background {
+    background-color: black;
+    background-image: linear-gradient(to bottom right, #abbaab, #ffffff);
+    height: 100vh;
+}
 /**========================================**/
