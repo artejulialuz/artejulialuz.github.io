@@ -47,16 +47,16 @@ main {
 .navbar-itens {
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    
 }
 
-.navbar-itens h1 { 
+.navbar h1 { 
     font-family: 'Monoton', cursive;
     color: #abbaab;
     font-size: 2rem;
     text-transform: uppercase;
     border-bottom: 1px solid #abbaab;
-    text-align: center;
+    text-align: center;width: 100%;
 }
 
 .navbar-itens li{
@@ -107,8 +107,7 @@ main {
     font-size: 16px;
 }
 
-@media (min-width: 1600px) {
-    
+@media (min-width: 900px) { 
     /**GRID**/
     .grid-container {
     display: grid;
@@ -120,9 +119,22 @@ main {
     /**==============**/
 
     /**NAVBAR**/
+    .navbar h1 { 
+        font-size: 3rem;
+    }
 
+    .navbar-itens ul {
+        margin-top: 5rem;
+    }
     /**==============**/
+}
 
+@media (min-width: 1360px){
+    /**NAVBAR**/
+    .navbar h1 { 
+        font-size: 4rem;
+    }
+    /**==============**/
 }
 
 /**========================================**/
