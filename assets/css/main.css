@@ -124,12 +124,13 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .item {
  flex-direction: column;
  flex-wrap: wrap;
+ margin-bottom: 1rem;
+ justify-content: center;
 }
 
 .item img{
@@ -138,14 +139,14 @@ main {
 }
 
 .item a {
-    display: inline-block;
+    display: flex;
     text-decoration: none;
     background-color: black;
     color: white;
     border-radius: 30px;
     text-align: center;
-    width: 8rem;
     line-height: 2rem;
+    justify-content: center;
 }
 /**========================================**/
 
