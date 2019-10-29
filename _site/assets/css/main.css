@@ -121,6 +121,7 @@ main {
 }
 
 .index-itens {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -130,12 +131,14 @@ main {
  flex-direction: column;
  flex-wrap: wrap;
  margin-bottom: 1rem;
+ margin-right: 1rem;
+ margin-left: 1rem;
  justify-content: center;
 }
 
 .item img{
-    width: 12rem;
-    height: 12rem;
+    width: 8rem;
+    height: 8rem;
 }
 
 .item a {
