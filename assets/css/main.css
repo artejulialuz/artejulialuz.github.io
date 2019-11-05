@@ -165,11 +165,14 @@ body {
 .especific {
     border-bottom: 1px solid black;
     background-color: #abbaab;
-    color: black;
     text-align: center;
-    text-transform: uppercase;
     padding: 1rem;
-    font-size: 1.5rem
+}
+
+.especific h1 {
+    font-size: 1.5rem;
+    color: black;
+    text-transform: uppercase;
 }
 /**========================================**/
 
@@ -233,6 +236,64 @@ body {
         margin-top: 5rem;
     }
     /**==============**/
+
+    /**SECTION INDEX**/
+    .index h1{
+        font-size: 2rem;
+    }
+    .index p {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .index-itens {
+        justify-content: center;
+    }
+    
+    .item {
+     margin-bottom: 1.5rem;
+     margin-right: 1.5rem;
+     margin-left: 1.5rem;
+    }
+
+    .item p {
+        margin-bottom: 1.5rem;
+    }
+    
+    .item img {
+        width: 18rem;
+        height: 18rem;
+    }
+    
+    .item a {
+        border-radius: 30px;
+        text-align: center;
+        line-height: 2rem;
+    }
+    /**==============**/   
+    
+    /**SECTION CONTENT**/
+    .content h2 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        text-align: justify;
+        padding: 0 3rem 2rem 3rem;
+    }
+    
+    .content ul {
+        padding: 0 3rem 2rem 3rem;
+    }
+    /**==============**/
+
+    /**SECTION ESPECIFIC**/
+    .especific {
+        display: none;
+    }
+     /**==============**/
 
     /**BACKGROUND**/
     .background {
