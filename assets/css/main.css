@@ -45,6 +45,10 @@ main {
     align-items: center;
 }
 
+.navbar a {
+    text-decoration: none;
+}
+
 .navbar-itens {
     flex-direction: row;
     align-items: center;
@@ -153,6 +157,16 @@ main {
 }
 /**========================================**/
 
+/**SECTION ESPECIFIC**/
+.especific {
+    border-bottom: 1px solid black;
+    background-color: #abbaab;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+/**========================================**/
 /**BACKGROUND**/
 .background {
     background-color: black;
