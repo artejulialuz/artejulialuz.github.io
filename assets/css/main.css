@@ -9,12 +9,13 @@ font-family: 'Open Sans', sans-serif;
     grid-template-areas: "nv"
                          "main"
                          "ft";
-    grid-template-rows: auto;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: auto; 
 }
 
 nav {
     grid-area: nv;
+
 }
 
 main {
@@ -32,8 +33,11 @@ footer {
 }
 
 main {
-    height: 100vh;
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
 }
 /**========================================**/
 
@@ -165,12 +169,42 @@ main {
     text-align: center;
     text-transform: uppercase;
     padding: 1rem;
+    font-size: 1.5rem
 }
 /**========================================**/
+
+/**SECTION CONTENT**/
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 16rem;
+    height: 16rem;
+}
+
+.content h2 {
+    font-size: 1.2rem;
+    color: black;
+    padding: 1rem;
+}
+
+.content p {
+    text-align: justify;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.content ul {
+    padding: 0 1rem 1rem 1rem;
+}
+/**========================================**/
+
 /**BACKGROUND**/
 .background {
-    background-color: black;
-    background-image: linear-gradient(to bottom right, #abbaab, #ffffff);
+    background-color: #cedace;
+    background-repeat: no-repeat;
 }
 /**========================================**/
 
@@ -197,6 +231,12 @@ main {
 
     .navbar-itens ul {
         margin-top: 5rem;
+    }
+    /**==============**/
+
+    /**BACKGROUND**/
+    .background {
+    background-image: linear-gradient(to bottom right, #abbaab, #ffffff);
     }
     /**==============**/
 }
