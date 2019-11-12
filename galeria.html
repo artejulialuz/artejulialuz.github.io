@@ -12,6 +12,15 @@ conteudo: Galeria
         <div class="">
             <h3 class="">{{ collection.name }}</h3>
             <p class="">{{ collection.description }}</p>
+            <a href="{{ collection.link }}">link</a>
+
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}">
+              {{ item.name }}
+            </a>
+          {% endfor %}
+            
+
         </div>
     </div>
     {% endfor %}

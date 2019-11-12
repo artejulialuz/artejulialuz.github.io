@@ -2,18 +2,21 @@
     {
         "name":"Coleção 1",
         "description":"Esta é a coleção 1",
-        "thumb":"/assets/images/obras/default.png"
+        "thumb":"/assets/images/obras/default.png",
+        "link":""
     },
 
     {
         "name":"Coleção 2",
         "description":"Esta é a coleção 2",
-        "thumb":"/assets/images/obras/default.png"
+        "thumb":"/assets/images/obras/default.png",
+        "link":""
     },
 
     {
         "name":"Coleção 3",
         "description":"Esta é a coleção 3",
-        "thumb":"/assets/images/obras/default.png"
+        "thumb":"/assets/images/obras/default.png",
+        "link":""
     }
 ]
