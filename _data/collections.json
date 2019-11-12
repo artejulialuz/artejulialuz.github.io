@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Coleção 1",
+        "description":"Esta é a coleção 1",
+        "thumb":"/assets/images/thumb/thumb1"
+    },
+
+    {
+        "name":"Coleção 2",
+        "description":"Esta é a coleção 2",
+        "thumb":"/assets/images/thumb/thumb2"
+    },
+
+    {
+        "name":"Coleção 3",
+        "description":"Esta é a coleção 3",
+        "thumb":"/assets/images/thumb/thumb3"
+    }
+]
