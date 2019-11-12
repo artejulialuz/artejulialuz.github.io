@@ -8,16 +8,10 @@ conteudo: Galeria
     {% assign c = site.data.collections | sort: 'name' %}
     {% for collection in c %}
     <div class="">
-        <picture class="speaker-img">
-            <source srcset="{{ palestrante.foto }}-p.jpg" media="(max-width: 720px)">
-            <source srcset="{{ palestrante.foto }}-m.jpg" media="(max-width: 1368px)">
-            <source srcset="{{ palestrante.foto }}-g.jpg" media="(min-width: 1368px)">
-            <img src="assets/img/default-p.jpg" alt="{{ palestrante.nome }}" title="{{ palestrante.nome }}" class="speaker-img">
-        </picture>
-
+            <img src="{{ collection.thumb }}" alt="{{ palestrante.name }}" width="500px" height="100px">
         <div class="">
-            <h3 class="">{{ palestrante.nome }}</h3>
-            <p class="">{{ palestrante.titulo }}</p>
+            <h3 class="">{{ collection.name }}</h3>
+            <p class="">{{ collection.description }}</p>
         </div>
     </div>
     {% endfor %}
