@@ -2,21 +2,21 @@
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Argila 1",
-        "pagina":""
+        "link":"/collections/argila/argila1.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Argila 2",
-        "pagina":""
+        "link":""
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Argila 3",
-        "pagina":""
+        "link":""
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Argila 4",
-        "pagina":""
+        "link":""
     }
 ]
