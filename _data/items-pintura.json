@@ -2,21 +2,21 @@
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Pintura 1",
-        "link":""
+        "link":"/collections/pintura/pintura1.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Pintura 2",
-        "link":""
+        "link":"/collections/pintura/pintura2.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Pintura 3",
-        "link":""
+        "link":"/collections/pintura/pintura3.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Pintura 4",
-        "link":""
+        "link":"/collections/pintura/pintura4.html"
     }
 ]
