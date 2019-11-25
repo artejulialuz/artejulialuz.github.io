@@ -1,0 +1,19 @@
+---
+layout: pages
+titulo: Pinturas
+conteudo: Pinturas
+---
+
+<section class="gallery">
+    {% assign c = site.data.items-pintura | sort: 'titulo' %}
+    {% for items-pintura in c %}
+    <div class="gallery-items">
+        <a href="{{ items-pintura.link }}"><img src="{{ items-pintura.fonte }}"></a>
+        <div class="gallery-description">
+
+            <h3>{{ items-pintura.titulo }}</h3>
+
+        </div>
+    </div>
+    {% endfor %}
+</section>

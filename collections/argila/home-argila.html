@@ -1,0 +1,19 @@
+---
+layout: pages
+titulo: Argilas
+conteudo: Argila
+---
+
+<section class="gallery">
+    {% assign c = site.data.items-argila | sort: 'titulo' %}
+    {% for items-argila in c %}
+    <div class="gallery-items">
+        <a href="{{ items-argila.link }}"><img src="{{ items-argila.fonte }}"></a>
+        <div class="gallery-description">
+
+            <h3>{{ items-argila.titulo }}</h3>
+
+        </div>
+    </div>
+    {% endfor %}
+</section>

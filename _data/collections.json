@@ -3,13 +3,13 @@
         "name":"Argilas",
         "description":"Esta é a minha coleção de obras feitas a base de argila.",
         "thumb":"/assets/images/obras/default.png",
-        "link":"/collections/argila/home.html"
+        "link":"/collections/argila/home-argila.html"
     },
 
     {
         "name":"Pinturas",
         "description":"Esta é a minha coleção de pinturas, sendo elas das mais variadas formas.",
         "thumb":"/assets/images/obras/default.png",
-        "link":"/collections/pintura/home.html"
+        "link":"/collections/pintura/home-pintura.html"
     }
 ]
