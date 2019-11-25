@@ -1,22 +1,15 @@
 [
     {
-        "name":"Coleção 1",
-        "description":"Esta é a coleção 1",
+        "name":"Argilas",
+        "description":"Esta é a minha coleção de obras feitas a base de argila.",
         "thumb":"/assets/images/obras/default.png",
-        "link":""
+        "link":"/collections/argila/home.html"
     },
 
     {
-        "name":"Coleção 2",
-        "description":"Esta é a coleção 2",
+        "name":"Pinturas",
+        "description":"Esta é a minha coleção de pinturas, sendo elas das mais variadas formas.",
         "thumb":"/assets/images/obras/default.png",
-        "link":""
-    },
-
-    {
-        "name":"Coleção 3",
-        "description":"Esta é a coleção 3",
-        "thumb":"/assets/images/obras/default.png",
-        "link":""
+        "link":"/collections/pintura/home.html"
     }
 ]
