@@ -5,23 +5,17 @@ conteudo: Galeria
 ---
 
 <section class="gallery">
-    {% assign c = site.data.collections | sort: 'name' %}
-    {% for collection in c %}
-    <div class="">
-            <img src="{{ collection.thumb }}" alt="{{ palestrante.name }}" width="500px" height="100px">
-        <div class="">
-            <h3 class="">{{ collection.name }}</h3>
-            <p class="">{{ collection.description }}</p>
-            <a href="{{ collection.link }}">link</a>
+  {% assign c = site.data.collections | sort: 'name' %}
+  {% for collection in c %}
+  <div class="gallery-items">
+    <a href="{{ collection.link }}"><img src="{{ collection.thumb }}" alt="{{ palestrante.name }}"></a>
+    <div class="gallery-description">
+      
+        <h3>{{ collection.name }}</h3>
+        <p>{{ collection.description }}</p>
+      
 
-            {% for item in site.data.navigation %}
-            <a href="{{ item.link }}">
-              {{ item.name }}
-            </a>
-          {% endfor %}
-            
-
-        </div>
     </div>
-    {% endfor %}
+  </div>
+  {% endfor %}
 </section>

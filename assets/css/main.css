@@ -237,6 +237,30 @@ body {
 }
 /**========================================**/
 
+/**SECTION GALLERY**/
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-items {
+    margin-bottom: 1rem;
+}
+
+.gallery-items img {
+    width: 18rem; 
+    height: 8rem;
+    margin-top: 1rem;
+    border: solid 1px black;
+}
+
+.gallery-description {
+    text-align: center;
+}
+
+/**========================================**/
+
 /**BACKGROUND**/
 .background {
     background-color: #cedace;
@@ -332,6 +356,12 @@ body {
     .background {
     background-image: linear-gradient(to bottom right, #abbaab, #ffffff);
     }
+    /**==============**/
+
+    /**SECTION GALLERY**/
+    /*.gallery {
+        flex-direction: row;
+    }*/
     /**==============**/
 }
 
