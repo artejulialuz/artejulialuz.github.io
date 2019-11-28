@@ -1,22 +1,19 @@
-function menu(x) {
-    //alterando barra burger
-    x.classList.toggle("change");
+// Criando modal
+var modal = document.getElementById("myModal");
 
-    //exibindo itens dropdown
-    document.getElementById("menu-dropdown").classList.toggle("show");
+// Colocando imagem dentro do modal
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
 
-    // fechando dropdown caso clique fora do mesmo
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-             }
-        }
-     }
-  }
+// Fechando o modal
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+} 
   
