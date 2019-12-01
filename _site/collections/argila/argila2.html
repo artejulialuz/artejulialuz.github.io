@@ -38,6 +38,57 @@
         <section class="especific">
             <h1> Obra de Argila 2 </h1>
         </section>
+
+        <!--Imagens usadas para abrir o LightBox-->
+        <div class="images">
+            <div class="item-image">
+                <img src="" alt="" onclick="openModal();currentSlide(1)"
+                    class="hover-shadow">
+            </div>
+            <div class="item-image">
+                <img src="" alt="" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow">
+            </div>
+            <div class="item-image">
+                <img src="" alt="" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow">
+            </div>
+            <div class="item-image">
+                <img src="" alt="" onclick="openModal();currentSlide(4)"
+                    class="hover-shadow">
+            </div>
+        </div>
+
+        <!--O Modal/LightBox-->
+        <div id="oModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="slides">
+                    <div class="numbertext"> 1/4</div>
+                    <img src="" alt="">
+                </div>
+
+                <div class="slides">
+                    <div class="numbertext"> 2/4</div>
+                    <img src="" alt="">
+                </div>
+
+                <div class="slides">
+                    <div class="numbertext"> 3/4</div>
+                    <img src="" alt="">
+                </div>
+
+                <div class="slides">
+                    <div class="numbertext"> 4/4</div>
+                    <img src="" alt="">
+                </div>
+
+                <!--Controle de Slides-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga dolor accusamus similique doloribus ullam
     necessitatibus sequi pariatur ex laborum! Enim, quae? Cum, optio exercitationem distinctio eos reprehenderit neque
     nisi!</p>
