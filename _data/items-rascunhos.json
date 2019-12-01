@@ -1,0 +1,22 @@
+[
+    {
+        "fonte":"/assets/images/obras/default.png",
+        "titulo":"Rascunho 1",
+        "link":"/collections/rascunhos/pintura1.html"
+    },
+    {
+        "fonte":"/assets/images/obras/default.png",
+        "titulo":"Rascunho 2",
+        "link":"/collections/rascunhos/pintura2.html"
+    },
+    {
+        "fonte":"/assets/images/obras/default.png",
+        "titulo":"Rascunho 3",
+        "link":"/collections/rascunhos/pintura3.html"
+    },
+    {
+        "fonte":"/assets/images/obras/default.png",
+        "titulo":"Rascunho 4",
+        "link":"/collections/rascunhos/pintura4.html"
+    }
+]

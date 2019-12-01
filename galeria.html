@@ -8,11 +8,12 @@ conteudo: Galeria
   {% assign c = site.data.collections | sort: 'name' %}
   {% for collection in c %}
   <div class="gallery-items">
-    <a href="{{ collection.link }}"><img src="{{ collection.thumb }}" alt="{{ palestrante.name }}"></a>
+    <a href="{{ collection.link }}"> <img src="{{ collection.thumb }}"></a>
     <div class="gallery-description">
 
       <h3>{{ collection.name }}</h3>
       <p>{{ collection.description }}</p>
+      <a href="/assets/images/rascunhos/cartoes-de-aniversario.jpg"></a>
 
     </div>
   </div>
