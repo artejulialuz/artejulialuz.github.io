@@ -2,21 +2,21 @@
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Desenho 1",
-        "link":"/collections/desenhos/argila1.html"
+        "link":"/collections/desenhos/desenho1.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Desenho 2",
-        "link":"/collections/desenhos/argila2.html"
+        "link":"/collections/desenhos/desenho2.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Desenho 3",
-        "link":"/collections/desenhos/argila3.html"
+        "link":"/collections/desenhos/desenho3.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Desenho 4",
-        "link":"/collections/desenhos/argila4.html"
+        "link":"/collections/desenhos/desenho4.html"
     }
 ]

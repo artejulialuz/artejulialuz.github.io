@@ -2,21 +2,21 @@
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Rascunho 1",
-        "link":"/collections/rascunhos/pintura1.html"
+        "link":"/collections/rascunhos/rascunho1.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Rascunho 2",
-        "link":"/collections/rascunhos/pintura2.html"
+        "link":"/collections/rascunhos/rascunho2.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Rascunho 3",
-        "link":"/collections/rascunhos/pintura3.html"
+        "link":"/collections/rascunhos/rascunho3.html"
     },
     {
         "fonte":"/assets/images/obras/default.png",
         "titulo":"Rascunho 4",
-        "link":"/collections/rascunhos/pintura4.html"
+        "link":"/collections/rascunhos/rascunho4.html"
     }
 ]
