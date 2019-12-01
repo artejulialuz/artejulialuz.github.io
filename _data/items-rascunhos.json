@@ -1,22 +1,22 @@
 [
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Rascunho 1",
+        "fonte":"/assets/images/rascunhos/Gatinhos.jpg",
+        "titulo":"Gatinhos",
         "link":"/collections/rascunhos/rascunho1.html"
     },
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Rascunho 2",
+        "fonte":"/assets/images/rascunhos/Olhar.jpg",
+        "titulo":"Olhar",
         "link":"/collections/rascunhos/rascunho2.html"
     },
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Rascunho 3",
+        "fonte":"/assets/images/rascunhos/Estudos-para-Rostos-I.jpg",
+        "titulo":"Estudos I",
         "link":"/collections/rascunhos/rascunho3.html"
     },
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Rascunho 4",
+        "fonte":"/assets/images/rascunhos/Borboleta-monarca.jpg",
+        "titulo":"Borboleta Monarca",
         "link":"/collections/rascunhos/rascunho4.html"
     }
 ]
