@@ -1,22 +1,22 @@
 [
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Desenho 1",
+        "fonte":"/assets/images/desenhos/Poppy.jpg",
+        "titulo":"Poppy",
         "link":"/collections/desenhos/desenho1.html"
     },
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Desenho 2",
+        "fonte":"/assets/images/desenhos/anemona-rosa.jpg",
+        "titulo":"Anêmona Rosa",
         "link":"/collections/desenhos/desenho2.html"
     },
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Desenho 3",
+        "fonte":"/assets/images/desenhos/Mulheres-II.jpg",
+        "titulo":"Mulheres",
         "link":"/collections/desenhos/desenho3.html"
     },
     {
-        "fonte":"/assets/images/obras/default.png",
-        "titulo":"Desenho 4",
+        "fonte":"/assets/images/desenhos/Rosto-I.jpg",
+        "titulo":"Rosto I",
         "link":"/collections/desenhos/desenho4.html"
     }
 ]

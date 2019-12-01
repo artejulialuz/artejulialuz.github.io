@@ -45,6 +45,7 @@
                 <img src="{{ page.src1 }}" alt="{{ page.alt1 }}" onclick="openModal();currentSlide(1)"
                     class="hover-shadow">
             </div>
+            <!--    
             <div class="item-image">
                 <img src="{{ page.src2 }}" alt="{{ page.alt2 }}" onclick="openModal();currentSlide(2)"
                     class="hover-shadow">
@@ -58,17 +59,19 @@
                     class="hover-shadow">
             </div>
         </div>
+        -->
 
-        <!--O Modal/LightBox-->
-        <div id="oModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-                <div class="slides">
-                    <div class="numbertext"> 1/4</div>
-                    <img src="{{ page.src1 }}" alt="{{ page.alt1 }}">
-                </div>
+            <!--O Modal/LightBox-->
+            <div id="oModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="slides">
+                        <div class="numbertext"> 1/1</div>
+                        <img src="{{ page.src1 }}" alt="{{ page.alt1 }}">
+                    </div>
 
-                <div class="slides">
+                    <!--
+                        <div class="slides">
                     <div class="numbertext"> 2/4</div>
                     <img src="{{ page.src2 }}" alt="{{ page.alt2 }}">
                 </div>
@@ -82,29 +85,26 @@
                     <div class="numbertext"> 4/4</div>
                     <img src="{{ page.src4 }}" alt="{{ page.alt4 }}">
                 </div>
+            -->
 
-                <!--Controle de Slides-->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <!--Controle de Slides-->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
             </div>
-        </div>
 
-        <div class="info">
-            <h2>Informações Adicionais</h2>
-            <div class="info-adc">
-                <ul>
-                    <li>tamanho</li>
-                    <li>material</li>
-                </ul>
-            </div>
-            <div class="info-adc"></div>
-            <ul>
-                <li>descricao</li>
-                <li>
-                    <a href="">comprar</a>
-                </li>
-            </ul>
-        </div>
+            <div class="info">
+                <h2>Informações Adicionais</h2>
+                <div class="info-adc">
+                    <ul>
+                        <li> {{ page.tamanho }}</li>
+                        <li> {{ page.material }}</li>
+                        <li>
+                            <a href="">comprar</a>
+                        </li>
+                    </ul>
+                </div>
+
     </main>
 
     <footer>
