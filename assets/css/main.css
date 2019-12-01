@@ -183,11 +183,6 @@ body {
     align-items: center;
 }
 
-.content img {
-    width: 16rem;
-    height: 16rem;
-}
-
 .content h2 {
     font-size: 1.2rem;
     color: black;
@@ -234,6 +229,21 @@ body {
     font-size: 1rem;
     padding: 0.5rem;
     margin-bottom: 1rem;
+}
+
+.pic-personal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic-personal img {
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 8rem;
+    height: 10rem;
+    margin: 0.5rem;
 }
 /**========================================**/
 
@@ -323,7 +333,7 @@ body {
     top: 50%;
     width: auto;
     padding: 1rem;
-    margin-top: -3rem;
+    margin-top: -50px;
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
