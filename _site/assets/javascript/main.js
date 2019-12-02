@@ -1,6 +1,6 @@
 //Abrindo o Modal
 function openModal() {
-    document.getElementById("oModal").style.display = "block";
+    document.getElementById("oModal").style.display = "flex";
 }
 
 //Fechando o Modal 
