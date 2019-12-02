@@ -1,0 +1,19 @@
+---
+layout: pages
+titulo: Desenhos
+conteudo: Desenhos
+---
+
+<section class="gallery">
+    {% assign c = site.data.items-desenhos | sort: 'titulo' %}
+    {% for items-desenhos in c %}
+    <div class="gallery-items">
+        <a href="{{ items-desenhos.link }}"><img src="{{ items-desenhos.fonte }}"></a>
+        <div class="gallery-description">
+
+            <h3>{{ items-desenhos.titulo }}</h3>
+
+        </div>
+    </div>
+    {% endfor %}
+</section>

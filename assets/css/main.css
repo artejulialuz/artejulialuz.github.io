@@ -183,15 +183,11 @@ body {
     align-items: center;
 }
 
-.content img {
-    width: 16rem;
-    height: 16rem;
-}
-
 .content h2 {
     font-size: 1.2rem;
     color: black;
     padding: 1rem;
+    text-align: center;
 }
 
 .content p {
@@ -201,6 +197,219 @@ body {
 
 .content ul {
     padding: 0 1rem 1rem 1rem;
+}
+
+.form {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-email {
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 2px black;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.pic-personal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic-personal img {
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 8rem;
+    height: 10rem;
+    margin: 0.5rem;
+}
+/**========================================**/
+
+/**SECTION GALLERY**/
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.gallery-items img {
+    width: 18rem; 
+    height: 8rem;
+    margin-top: 1rem;
+    border: solid 1px black;
+    align-self: center;
+}
+
+.gallery-description {
+    text-align: center;
+}
+
+/**SECTION ITEMS**/
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item-image img{
+    width: 16rem;
+    height: 16rem;
+    margin-top: 1rem;
+    border: solid 1px black;
+}
+
+#oModal {
+    display: none;
+    justify-content: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 3rem;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+.modal-content {
+    position: relative;
+    background-color: black;
+    width: 90%;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    
+}
+
+.close {
+    color:white;
+    position: absolute;
+    font-weight: bold;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    ;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slides {
+    display: none;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    background: black;
+}
+
+.slides img {
+    width: 90%; 
+    max-width: 700px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1rem;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    margin-bottom: 1rem;
+}
+
+.active {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.info-adc {
+    text-align: justify;
+}
+
+.btn {
+    margin-top: 1rem ;
+    display: flex;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2rem;
+    justify-content: center;
 }
 /**========================================**/
 
@@ -299,6 +508,12 @@ body {
     .background {
     background-image: linear-gradient(to bottom right, #abbaab, #ffffff);
     }
+    /**==============**/
+
+    /**SECTION GALLERY**/
+    /*.gallery {
+        flex-direction: row;
+    }*/
     /**==============**/
 }
 
