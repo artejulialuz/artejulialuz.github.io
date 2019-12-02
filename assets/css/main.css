@@ -282,8 +282,10 @@ body {
 }
 
 .item-image img{
-    width: 8rem;
-    height: 8rem;
+    width: 16rem;
+    height: 16rem;
+    margin-top: 1rem;
+    border: solid 1px black;
 }
 
 #oModal {
@@ -386,6 +388,29 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.info-adc {
+    text-align: justify;
+}
+
+.btn {
+    margin-top: 1rem ;
+    display: flex;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 2rem;
+    justify-content: center;
+}
 /**========================================**/
 
 /**BACKGROUND**/
