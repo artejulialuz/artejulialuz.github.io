@@ -112,11 +112,11 @@ body {
 }
 
 .index h1{
-    color: rgb(253, 99, 43);
+    background-color: rgb(253, 99, 43);
+    color: white;
     font-style: normal;
     font-weight: 800;
     font-size: 1.5rem;
-    text-transform: uppercase;
     margin: 1rem;
 }
 
@@ -126,6 +126,7 @@ body {
     margin-left: 5%;
     margin-bottom: 1rem;
     font-size: 1rem;
+    color: rgb(119, 119, 119);
 }
 
 .index-itens {
@@ -147,6 +148,7 @@ body {
 .item img{
     width: 8rem;
     height: 8rem;
+    border: solid 1px black;
 }
 
 .item a {
@@ -184,9 +186,13 @@ body {
 }
 
 .content h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: black;
     padding: 1rem;
+    text-align: center;
+}
+
+.content h3 {
     text-align: center;
 }
 
