@@ -4,10 +4,10 @@ titulo: Desenhos
 conteudo: Desenhos
 ---
 
-<section class="gallery">
+<section class="gallery-especific">
     {% assign c = site.data.items-desenhos | sort: 'titulo' %}
     {% for items-desenhos in c %}
-    <div class="gallery-items">
+    <div class="gallery-items-especific">
         <a href="{{ items-desenhos.link }}"><img src="{{ items-desenhos.fonte }}"></a>
         <div class="gallery-description">
 

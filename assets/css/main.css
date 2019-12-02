@@ -112,11 +112,11 @@ body {
 }
 
 .index h1{
-    color: rgb(253, 99, 43);
+    background-color: rgb(253, 99, 43);
+    color: white;
     font-style: normal;
     font-weight: 800;
     font-size: 1.5rem;
-    text-transform: uppercase;
     margin: 1rem;
 }
 
@@ -126,6 +126,7 @@ body {
     margin-left: 5%;
     margin-bottom: 1rem;
     font-size: 1rem;
+    color: rgb(119, 119, 119);
 }
 
 .index-itens {
@@ -147,6 +148,7 @@ body {
 .item img{
     width: 8rem;
     height: 8rem;
+    border: solid 1px black;
 }
 
 .item a {
@@ -184,9 +186,13 @@ body {
 }
 
 .content h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: black;
     padding: 1rem;
+    text-align: center;
+}
+
+.content h3 {
     text-align: center;
 }
 
@@ -269,8 +275,26 @@ body {
     align-self: center;
 }
 
+.gallery-especific {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-items-especific img {
+    width: 8rem; 
+    height: 8rem;
+    margin-top: 1rem;
+    border: solid 1px black;
+    align-self: center;
+    margin: 1rem 1rem 0 1rem;
+}
+
 .gallery-description {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 /**SECTION ITEMS**/
@@ -472,8 +496,8 @@ img.hover-shadow {
     }
     
     .item img {
-        width: 18rem;
-        height: 18rem;
+        width: 19rem;
+        height: 19rem;
     }
     
     .item a {
@@ -491,18 +515,54 @@ img.hover-shadow {
     .content p {
         text-align: justify;
         padding: 0 3rem 2rem 3rem;
+        max-width: 900px;
     }
     
     .content ul {
         padding: 0 3rem 2rem 3rem;
     }
+
+    .pic-personal img {
+        height: 16rem;
+        width: 13rem;
+    }
     /**==============**/
 
-    /**SECTION ESPECIFIC**/
+    /**SECTION ESPECIFIC
     .especific {
         display: none;
-    }
+    }**/
      /**==============**/
+
+     /**SECTION GALLERY**/
+    .gallery-items img {
+        width: 28rem; 
+        height: 13rem;
+    }
+    
+    .gallery-items-especific img {
+        width: 18rem; 
+        height: 18rem;
+        margin: 1rem;
+        border: solid 1px black;
+        align-self: center;
+        margin: 1rem;
+    }
+    /**==============**/
+
+    /**SECTION ITEMS**/
+    .item-image img{
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+    
+    
+    
+    /**==============**/
 
     /**BACKGROUND**/
     .background {
@@ -510,17 +570,18 @@ img.hover-shadow {
     }
     /**==============**/
 
-    /**SECTION GALLERY**/
-    /*.gallery {
-        flex-direction: row;
-    }*/
-    /**==============**/
 }
 
 @media (min-width: 1360px){
     /**NAVBAR**/
     .navbar h1 { 
         font-size: 4rem;
+    }
+    /**==============**/
+
+    /**SECTION CONTENT**/
+    .content p {
+        max-width: 1200px;
     }
     /**==============**/
 }
